@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class AreaCalculator {
 
     public static double calculateArea(float radius) {
-        return 3.14 * radius * radius;
+        return Math.PI * radius * radius;
     }
 
     public static double calculateArea(float length, float breadth) {
